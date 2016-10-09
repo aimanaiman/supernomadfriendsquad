@@ -1,8 +1,12 @@
 {
   "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "description": "Super Nomad Friend Squad",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Aiman Farhan <rajaaimanf@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aimanaiman/supernomadfriendsquad"
+            },
   "dependencies": {
     "front-matter": "^2.0.7",
     "gatsby": "^0.12.12",
