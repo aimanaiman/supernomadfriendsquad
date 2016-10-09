@@ -23,7 +23,7 @@ return (
 				<Link to={prefixLink('/')} id="logo"><img src={logo1} alt=""/></Link>
 				<ul className="menu" id="topNav">	
 					<li>
-						<Link to="/how">How It Works</Link>
+						<Link to={prefixLink('/how/')}>How It Works</Link>
 					</li>
 					<li>
 						<Link to={prefixLink('/itinerary/')}>Itinerary</Link>
