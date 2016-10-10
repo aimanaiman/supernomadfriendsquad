@@ -3,8 +3,7 @@ import { prefixLink } from 'gatsby-helpers'
 import { Link, IndexLink } from 'react-router';
 import style from './Nav.scss'
 import logo1 from '../img/monkeykey.png'
-import logo2 from '../img/finalfile2.png'
-import ninja from '../img/finalfile.jpg'
+
 
 
 
