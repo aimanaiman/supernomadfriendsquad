@@ -16,8 +16,8 @@ export default class Home extends React.Component {
         <Helmet
           title={config.siteTitle} 
           meta={[
-            {"name": "description", "content": "Sample"},
-            {"name": "keywords", "content": "sample, something"},
+            {"name": "description", "content": "Super Nomad Friend Squad is a travel group for digital nomads."},
+            {"name": "keywords", "content": "digital, nomad, remote, work, travel, world"},
           ]}
         />
         <div className="hero" id="home-hero">

@@ -48,14 +48,14 @@ export default class ApplyNow extends React.Component {
           </div>
         </section>
 
-        <section id="application-form" id="application-form"  style={{backgroundColor:'#ecf0f1'}}>
+        <section id="application-form" id="application-form" style={{backgroundColor:'#ecf0f1'}}>
           <div className="gallery">
             <h1>Application Form</h1>
           </div>
           
           <div className="container">
           
-            <form action="thank-you" netlify>
+            <form name="application" action="success" netlify >
               <label htmlFor="name">Name:</label>
               <input type="text" name="name" placeholder="Sandy H. Warmbuns" />
               <label htmlFor="email">Email:</label>
@@ -106,7 +106,7 @@ export default class ApplyNow extends React.Component {
               <textarea type="why" name="why" placeholder="" />
               
               <div className="row">
-                <button className="col-xs-12" action="submit" to={prefixLink('/thank-you/')}>
+                <button className="col-xs-12">
                   <Link >Submit</Link>
                 </button>
               </div>
