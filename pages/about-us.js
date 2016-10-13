@@ -4,11 +4,11 @@ import { config } from 'config'
 import { prefixLink } from 'gatsby-helpers'
 import { Link } from 'react-router'
 
-import aiman from '../img/me.jpg'
-import blake from '../img/blake.jpg'
-import brune2 from '../img/brune2.jpg'
-import beck from '../img/beck.jpg'
-import suki from '../img/suki.jpg'
+import aiman from '../image/me.jpg'
+import blake from '../image/blake.jpg'
+import brune2 from '../image/brune2.jpg'
+import beck from '../image/beck.jpg'
+import suki from '../image/suki.jpg'
 
 
 export default class AboutUs extends React.Component {
@@ -16,16 +16,19 @@ export default class AboutUs extends React.Component {
 		return (
 				<div>
 					<Helmet title={`${config.siteTitle} | About Us`} />
-					<div className="hero" id="about-us-hero">
-						<div className="overlay"></div>
-					</div>
+					
+				  <div className="hero" id="about-us-hero">
+		        <div className="overlay row">
+		          <h2 style={{color:'#fff'}}>The Super Nomad Friend Squad Support Staff Team</h2>
+		        </div>
+		      </div>
 
 					<section id="about-us">
 						<div className="row gallery" >
 							<div className="col-xs-12">
 								<h2>About Us</h2>
-								<p>The Super Nomad Friend Squad team consist of a remote team from different parts of the world. We kick ass and handle business with the ethics and proficiency of a Navy Seal. Filled with tons love and of juvenille laughter at the same time, everyday.</p>
-								<p>We wish to extend the proficiencies that we've acquired professionally and our innate ability for fun, to all our applicants throughout the course of the program.</p>
+								<p>The Super Nomad Friend Squad team consist of a remote team from different parts of the world. We handle business with the ethics and proficiency of a Navy Seal. Filled with tons love and of juvenille laughter at the same time, everyday.</p>
+								<p>We wish to extend the proficiencies that we've acquired professionally and our innate ability for fun, to all our applicants.</p>
 							</div>
 						</div>
 					</section>

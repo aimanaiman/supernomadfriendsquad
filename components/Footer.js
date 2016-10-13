@@ -30,17 +30,21 @@ export class Footer extends React.Component {
 				</div>
 					
 				<ul className="row center-xs">
-					<li className="col-xs col-lg-1">
+					<li className="col-xs col-lg-2">
 						<Link to={prefixLink('/about-us/')}>About Us</Link>
 					</li>
-					<li className="col-xs col-lg-1">
+					<li className="col-xs col-lg-2">
 						<Link to={prefixLink('/contact-us/')}>Contact Us</Link>
 					</li>
-					<li className="col-xs col-lg-1">
+					<li className="col-xs col-lg-2">
 						<Link to={prefixLink('/privacy-policy/')}>Privacy Policy</Link>
 					</li>
 				</ul>
-						
+						<div className="row center-xs">
+							<div className="col-xs-12">
+								<span>All rights reserved | Super Nomad Friend Squad | 2016</span>
+							</div>
+						</div>
 			</footer>
 			)
 	}

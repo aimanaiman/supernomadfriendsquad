@@ -1,7 +1,7 @@
 header {
 	width: 100%;
 	height: auto;
-	background-color: #f3f3f3;
+	background-color: #f2f2f2;
 }
 
 .navbar {
@@ -52,7 +52,7 @@ header {
 #logo {
 	img {
 		display: flex;
-		width: 300px;
+		width: 280px;
 		margin: 0;
 		padding: 20px 0;
 		align-items: center;
@@ -98,9 +98,9 @@ footer {
 		width: auto;
 		padding: 0 10px;
 	}
-	#copyright {
+	span {
 	font-family: 'Brandon';
-	color: white;
+	color: #f4f4f4;
 	font-size: 14px; 
 }
 }

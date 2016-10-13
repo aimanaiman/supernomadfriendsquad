@@ -5,16 +5,14 @@ import { prefixLink } from 'gatsby-helpers'
 import { Link } from 'react-router'
 
 
-import bed1 from '../img/accomodation3.jpg'
-import cowork from '../img/cowork4.jpg'
-import coworking from '../img/cowork-cape-town.jpg'
-import japan from '../img/japan.jpg'
-import activities from '../img/activity3.jpg'
+import bed1 from '../image/accomodation3.jpg'
+import coworking from '../image/cowork-cape-town.jpg'
+import activities from '../image/activity3.jpg'
 
-import transportation from '../img/transportation2.jpg'
-import comfort from '../img/comfort.jpg'
-import growth from '../img/growth.jpg'
-import support from '../img/support.jpg'
+import transportation from '../image/transportation2.jpg'
+import comfort from '../image/comfort.jpg'
+import growth from '../image/growth.jpg'
+import support from '../image/support.jpg'
 
 
 export default class How extends React.Component {
@@ -47,7 +45,7 @@ export default class How extends React.Component {
           <div className="row gallery center-xs">
             <div className="col-xs-7 col-lg-5 col-md-5">
               <img src={coworking} alt=""/>
-              <p>Coworking space and 25/7 Wi-fi Access</p>
+              <p>Coworking space and 24/7 Wi-fi Access</p>
             </div>
             <div className="col-xs-7 col-lg-5 col-md-5">
               <img src={activities} alt=""/>
@@ -58,7 +56,7 @@ export default class How extends React.Component {
             <div className="col-xs-12 col-lg-10 center-xs" id="cost" >
               <h1>Program Cost</h1>
               <p>Downpayment: $5,000</p>
-              <p>Monthly: $1,600</p>
+              <p>Monthly: $1,650</p>
             </div>
           </div>
         </section>
@@ -67,7 +65,7 @@ export default class How extends React.Component {
           <div className="" id="average-overlay">
             <div className="row gallery">
               <div className="col-xs-8">
-                <p>The average person pays $2,200 a month to live in an apartment. The average S.N.F.S member pays $1,600 a month to travel the world.</p>
+                <p>The average person pays $2,200 a month to live in an apartment. The average S.N.F.S member pays $1,650 a month to travel the world.</p>
               </div>
             </div>
           </div>
@@ -83,7 +81,7 @@ export default class How extends React.Component {
             <div className="col-md-3 col-xs-10">
               <h3>Growth</h3>
               <img src={growth} alt=""/>
-              <p>If we travel the world for an entire year and only had fun, but not progress as individuals. Or even neglect professional growth. Then we would have failed our mission.</p>
+              <p>If we travel the world for an entire year and only had fun, but neglect personal professional growth. Then we would have failed our mission.</p>
             </div>
             <div className="col-md-3 col-xs-10">
               <h3>Support</h3>

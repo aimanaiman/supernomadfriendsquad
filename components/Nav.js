@@ -2,7 +2,7 @@ import React, {PropTypes} from 'react';
 import { prefixLink } from 'gatsby-helpers'
 import { Link, IndexLink } from 'react-router';
 import style from './Nav.scss'
-import logo1 from '../img/monkeykey.png'
+import logo1 from '../image/logo.png'
 
 
 

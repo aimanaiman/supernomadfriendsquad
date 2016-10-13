@@ -33,6 +33,7 @@ h1,h2 {
 
 h3,h4,h5 {
 	font-family: 'Brandon Bold';
+	color: #020202;
 }
 
 p {
@@ -103,30 +104,52 @@ input, textarea, input[type=radio] {
 // Hero for each pages!!
 
 #home-hero {
-	background: url('../img/how-hero.jpg') no-repeat center;
+	background: url('../image/how-hero.jpg') no-repeat center;
 	height: 600px;
 	background-size: cover;
 	.hero-cta {
 		padding: 0 20px;
+
 	}
 }
 #how-hero {
-	background: url('../img/how-hero2.jpg') no-repeat right center;
+	background: url('../image/how-hero2.jpg') no-repeat right center;
 	height: 450px;
 	background-size: cover;
 
 }
-
 #apply-now-hero {
-	background: url('../img/apply-hero.jpg') no-repeat center;
+	background: url('../image/apply-hero.jpg') no-repeat center;
 	height: 450px;
 }
-
-
+#contact-us-hero {
+	background: url('../image/contact-us2.jpg') no-repeat center ;
+	background-size: cover;
+	height: 500px;
+}
+#about-us-hero {
+	background: url('../image/team.jpg') no-repeat top right ;
+	background-size: cover;
+	height: 500px;
+	p {
+			color: white;
+		}
+}
 
 // Sections
+// HOME//
+#what {
+	p {
+		font-family: 'Brandon Regular'
+	}
+}
+#community {
+	p {
+		font-family: 'Brandon Regular'
+	}
+}
 #call-to-arms {
-	background: url('../img/uncle-sam.jpg') no-repeat left center;
+	background: url('../image/uncle-sam.jpg') no-repeat left center;
 	z-index: 1;
 	padding: 0;
 
@@ -142,6 +165,7 @@ input, textarea, input[type=radio] {
 	}
 	p {
 		margin-bottom: 10px;
+		font-family: 'Brandon Regular'
 	}
 }
 
@@ -173,7 +197,7 @@ input, textarea, input[type=radio] {
 }
 
 #average {
-	background: url('../img/average.jpg') no-repeat left center;
+	background: url('../image/average.jpg') no-repeat left center;
 	z-index: 1;
 	padding: 0;
 	color: #f4f4f4;
@@ -194,11 +218,12 @@ input, textarea, input[type=radio] {
 	p {
 		margin-bottom: 40px;
 		padding: 0 20px;
+		font-family: 'Brandon Regular'
 	}
 }
 
 #remote-work {
-	background: url('../img/remotework.jpg') no-repeat right bottom fixed;
+	background: url('../image/remotework.jpg') no-repeat right bottom fixed;
 	z-index: 1;
 	padding: 0;
 
@@ -210,6 +235,9 @@ input, textarea, input[type=radio] {
 	}
 	h2,p {
 		color: #f3f3f3;
+	}
+	p {
+		font-family: 'Brandon Regular'
 	}
 }
 .wewantyou {
@@ -231,6 +259,9 @@ input, textarea, input[type=radio] {
 	img {
 		width: 300px;
 	}
+	p {
+		font-family: 'Brandon Regular'
+	}
 }
 
 // Itinerary//
@@ -247,15 +278,19 @@ input, textarea, input[type=radio] {
 		margin-bottom: 5px;
 		font-size: 18px;
 		padding: 0;
+
 	}
 }
 #relax {
-	background: url('../img/2months.jpg') no-repeat center left fixed;
+	background: url('../image/2months.jpg') no-repeat center left fixed;
 	background-size: cover;
 	padding: 0;
 	z-index: 1;
 	h3,p {
 		color: #f2f2f2;
+	}
+	p {
+		font-family: 'Brandon Regular'
 	}
 	#relax-overlay {
 		padding: 150px 0;
@@ -265,14 +300,54 @@ input, textarea, input[type=radio] {
 	}
 }
 
+#activities {
+	img {
+		width: 400px;
+	}
+	p,h3,h2 {
+		color: #fff;
+	}
+	p,h3 {
+		margin-bottom: 30px;
+	}
+	h1 {
+		margin-bottom: 50px;
+	}
+}
+#activities2 {
+	img {
+		width: 400px;
+	}
+}
 
+#adventure {
+	background: url('../image/adventure.jpg') no-repeat center;
+	background-size: cover;
+	z-index: 1;
+	padding: 0;
 
+	#adventure-overlay {
+		padding: 60px 0;
+		height: 100%;
+		background-color: rgba(0,0,0,0.3);
+		z-index: 2;
+	}
+	h2,p {
+		color: #f2f2f2;
+	}
+}
+#adventure-description {
+	padding: 100px 0 ;
+}
 
 // Apply Now
 
 #proccess {
 	img {
 		width: 60px;
+	}
+	h1 {
+		margin-bottom: 50px;
 	}
 }
 
@@ -371,12 +446,6 @@ input, textarea, input[type=radio] {
 		font-size: 18px;
 		color: #34495e;
 	}
-}
-#contact-us-hero {
-	background: url('../img/contact-us2.jpg') no-repeat center ;
-	background-size: cover;
-	height: 500px;
-	
 }
 
 #contact-us {
