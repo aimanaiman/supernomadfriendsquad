@@ -55,7 +55,7 @@ export default class ApplyNow extends React.Component {
           
           <div className="container">
           
-            <form netlify-data="true" name="application" action="success">
+            <form name="application" netlify-data="true">
               <label htmlFor="name">Name:</label>
               <input type="text" name="name" placeholder="Sandy H. Warmbuns" />
               <label htmlFor="email">Email:</label>
