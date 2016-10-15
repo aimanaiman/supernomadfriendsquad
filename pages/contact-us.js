@@ -20,7 +20,7 @@ export default class ContactUs extends React.Component {
 					<div className="container" >
 						<h1>Contact Us</h1>
 
-						<form name="contact-us" netlify-data="true">
+						<form name="contact-us" data-netlify={true}>
 							<div className="row">
 								<div className="col-xs-12">
 									<p>
