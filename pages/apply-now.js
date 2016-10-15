@@ -53,64 +53,64 @@ export default class ApplyNow extends React.Component {
             <h1>Application Form</h1>
           </div>
           
-          <div className="container">
-          
-            <form name="application" data-netlify={true}>
-              <label htmlFor="name">Name:</label>
-              <input type="text" name="name" placeholder="Sandy H. Warmbuns" />
-              <label htmlFor="email">Email:</label>
-              <input type="email" name="email" placeholder="sandy@warm.buns" />
-              <label htmlFor="skype">Skype ID:</label>
-              <input type="text" name="skype" placeholder="the.warmest.bun" />
+          <div className="row around-xs" id="form">
+            <div className="col-xs-12 col-lg-8">
+              <form name="application" data-netlify={true}>
+                <label htmlFor="name">Name:</label>
+                <input type="text" name="name" placeholder="Sandy H. Warmbuns" />
+                <label htmlFor="email">Email:</label>
+                <input type="email" name="email" placeholder="sandy@warm.buns" />
+                <label htmlFor="skype">Skype ID:</label>
+                <input type="text" name="skype" placeholder="the.warmest.bun" />
 
-              <label htmlFor="gender" className="gender">Gender:</label>
-              <select name="gender" id="gender">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
-              </select>
+                <label htmlFor="gender" className="gender">Gender:</label>
+                <select name="gender" id="gender">
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
 
-              <label htmlFor="occupation">What do you do for a living?</label>
-              <input type="text" name="occupation" placeholder="Bun Warmer" />
+                <label htmlFor="occupation">What do you do for a living?</label>
+                <input type="text" name="occupation" placeholder="Bun Warmer" />
+                
+                <label htmlFor="citizenship">Country of Citizenship:</label>
+                <input type="text" name="citizenship" placeholder="Narnia" />
+                
+                <label htmlFor="remote-work">
+                  Are you currently working remotely?
+                </label>
+                <label htmlFor="yes" className="yes-no">
+                  <input type="radio" name="remote-work" value="yes" id="yes"/>Yes 
+                </label>
+                <label htmlFor="no" className="yes-no" style={{marginTop:'0'}}>
+                  <input type="radio" name="remote-work" value="no" id="no"/>No 
+                </label>
               
-              <label htmlFor="citizenship">Country of Citizenship:</label>
-              <input type="text" name="citizenship" placeholder="Narnia" />
-              
-              <label htmlFor="remote-work">
-                Are you currently working remotely?
-              </label>
-              <label htmlFor="yes" className="yes-no">
-                <input type="radio" name="remote-work" value="yes" id="yes"/>Yes 
-              </label>
-              <label htmlFor="no" className="yes-no" style={{marginTop:'0'}}>
-                <input type="radio" name="remote-work" value="no" id="no"/>No 
-              </label>
-            
-              <label htmlFor="gender">Income Level?</label>
-              <select name="gender" id="gender">
-                <option value="25k">0 - $25,000</option>
-                <option value="25k-75k">$25,000 - $75,000</option>
-                <option value="75k-150k">$75,000 - $150,000</option>
-                <option value="150k">$150,000 and above</option>
-              </select>
+                <label htmlFor="gender">Income Level?</label>
+                <select name="gender" id="gender">
+                  <option value="25k">0 - $25,000</option>
+                  <option value="25k-75k">$25,000 - $75,000</option>
+                  <option value="75k-150k">$75,000 - $150,000</option>
+                  <option value="150k">$150,000 and above</option>
+                </select>
 
-              <label htmlFor="about-you">
-                Tell us a little about yourself. About your daily routines.
-              </label>
-              <textarea type="textarea" name="about-you" placeholder="" />
-              
-              <label htmlFor="why">
-                Why do you want to join our program?
-              </label>
-              <textarea type="why" name="why" placeholder="" />
-              
-              <div className="row">
-                <button className="col-xs-12">
-                  <Link >Submit</Link>
-                </button>
+                <label htmlFor="about-you">
+                  Tell us a little about yourself. About your daily routines.
+                </label>
+                <textarea type="textarea" name="about-you" placeholder="" />
+                
+                <label htmlFor="why">
+                  Why do you want to join our program?
+                </label>
+                <textarea type="why" name="why" placeholder="" />
+                
+                <div className="row center-xs">
+                  <button className="col-xs-9">
+                    <Link >Submit</Link>
+                  </button>
+                </div>
+              </form>
               </div>
-            </form>
-            
           </div>
         </section>
       </div>

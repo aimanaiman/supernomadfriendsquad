@@ -76,12 +76,12 @@ export default class How extends React.Component {
             <div className="col-md-3 col-xs-10">
               <h3>Comfort</h3>
               <img src={comfort} alt=""/>
-              <p>We do not sacrifice comfort for budget. All accommodations and logistics are in the mid to high range. You'll be still pushed out of your comfort zone of course.</p>
+              <p>All accommodations and logistics are in the mid to high range. You'll be still pushed out of your comfort zone of course.</p>
             </div>
             <div className="col-md-3 col-xs-10">
               <h3>Growth</h3>
               <img src={growth} alt=""/>
-              <p>If we travel the world for an entire year and only had fun, but neglect personal professional growth. Then we would have failed our mission.</p>
+              <p>If we travel the world for an entire year but neglect personal and professional growth. Then we would have failed our mission.</p>
             </div>
             <div className="col-md-3 col-xs-10">
               <h3>Support</h3>
