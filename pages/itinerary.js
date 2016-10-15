@@ -25,12 +25,30 @@ export default class Itinerary extends React.Component {
       <div>
         <Helmet title={`${config.siteTitle} | Itinerary`} />
 
+        <section id="adventure">
+          <div id="adventure-overlay">
+            <div className="row center-xs" id="adventure-description">
+              <div className="col-xs-8">
+                 <h2>Choose Your Own Adventure</h2>
+              </div>
+              <div className="col-xs-8 col-lg-6">
+                <p>What we do and how we live will take shape of the squad. Your personality will inevitably inject itself to our experience for the year, and vice versa. Be as inclusive as you want or as independent soul 'searchy' as you need to be. It's all good.
+                </p>
+                <button style={{backgroundColor:'#e67e22', marginTop:'30px'}}>
+                  <Link to={prefixLink('/itinerary/')}>
+                    Apply Now
+                  </Link>
+              </button>
+              </div>
+            </div>
+          </div>      
+        </section>
+        
         <section id="destinations">
         <div className="row">
           <div className="col-xs center-xs">
             <h1>Destinations</h1>
           </div>
-
         </div>
           <div className="row center-xs">
             <div className="col-lg-3 col-xs-12 col-md-3">
@@ -156,24 +174,6 @@ export default class Itinerary extends React.Component {
          </div>
        </section>
 
-       <section id="adventure">
-        <div id="adventure-overlay">
-          <div className="row center-xs" id="adventure-description">
-          <div className="col-xs-8">
-           <h2>Choose Your Own Adventure</h2>
-          </div>
-           
-            <div className="col-xs-8 col-lg-6">
-              <p>What we do and how we live will take shape of the squad. Your personality will inevitably inject itself to our experience for the year, and vice versa. Be as inclusive as you want or as independent soul 'searchy' as you need to be. It's all good.
-              </p>
-              <button style={{backgroundColor:'#e67e22', marginTop:'30px'}}>
-              <Link to={prefixLink('/itinerary/')}>YES! I'm Applying Right Now!</Link>
-            </button>
-            </div>
-          </div>
-        </div>
-        
-       </section>
        </div>
       )
   }

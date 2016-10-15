@@ -52,6 +52,9 @@ button {
 	font-family: 'Brandon';
 	a {
 		font-size: 22px;
+		&:hover {
+			color: #bdc3c7;
+		}
 	}
 }
 section {
@@ -114,13 +117,13 @@ input, textarea, input[type=radio] {
 }
 #how-hero {
 	background: url('../image/how-hero2.jpg') no-repeat right center;
-	height: 450px;
+	height: 600px;
 	background-size: cover;
 
 }
 #apply-now-hero {
 	background: url('../image/apply-hero.jpg') no-repeat center;
-	height: 450px;
+	height: 600px;
 }
 #contact-us-hero {
 	background: url('../image/contact-us2.jpg') no-repeat center ;
@@ -137,6 +140,7 @@ input, textarea, input[type=radio] {
 }
 
 // Sections
+
 // HOME//
 #what {
 	p {

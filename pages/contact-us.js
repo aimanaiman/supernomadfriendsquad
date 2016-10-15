@@ -19,7 +19,7 @@ export default class ContactUs extends React.Component {
 				<section id="contact-us">
 					<div className="container" >
 						<h1>Contact Us</h1>
-						<form action="contact-us" netlify>
+						<form netlify-data="true" action="contact-us" >
 							<div className="row">
 								<div className="col-xs-12">
 									<p>
@@ -46,7 +46,7 @@ export default class ContactUs extends React.Component {
 									</p>
 								</div>
 								<div className="col-xs-12">
-									<button action="submit">
+									<button>
 										Submit
 									</button>
 								</div>

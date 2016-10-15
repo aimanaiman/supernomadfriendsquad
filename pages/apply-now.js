@@ -48,14 +48,14 @@ export default class ApplyNow extends React.Component {
           </div>
         </section>
 
-        <section id="application-form" id="application-form" style={{backgroundColor:'#ecf0f1'}}>
+        <section id="application-form" style={{backgroundColor:'#ecf0f1'}}>
           <div className="gallery">
             <h1>Application Form</h1>
           </div>
           
           <div className="container">
           
-            <form name="application" action="success" netlify >
+            <form netlify-data="true" name="application" action="success">
               <label htmlFor="name">Name:</label>
               <input type="text" name="name" placeholder="Sandy H. Warmbuns" />
               <label htmlFor="email">Email:</label>
@@ -86,7 +86,6 @@ export default class ApplyNow extends React.Component {
                 <input type="radio" name="remote-work" value="no" id="no"/>No 
               </label>
             
-
               <label htmlFor="gender">Income Level?</label>
               <select name="gender" id="gender">
                 <option value="25k">0 - $25,000</option>
@@ -110,7 +109,6 @@ export default class ApplyNow extends React.Component {
                   <Link >Submit</Link>
                 </button>
               </div>
-
             </form>
             
           </div>

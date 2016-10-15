@@ -20,7 +20,7 @@ export class Footer extends React.Component {
 						<Link to={prefixLink('https://twitter.com/supernomadfs')} target="_blank"><img src={twitter} alt=""/></Link>
 						<Link to={prefixLink('https://www.instagram.com/supernomadfriendsquad')} target="_blank"><img src={instagram} alt=""/></Link>
 					</div>
-					<form name="subscribe" action="thank-you" netlify>
+					<form name="subscribe"  data-netlify={true}>
 						<h4 style={{textAlign:'center'}}>For more News and Updates</h4>
 					  <p>
 					    <input type="email" name="email" placeholder="Email" />
