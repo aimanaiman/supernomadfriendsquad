@@ -29,14 +29,14 @@ export class Footer extends React.Component {
 					</form>
 				</div>
 					
-				<ul className="row center-xs">
-					<li className="col-xs col-lg-2">
+				<ul className="row center-xs" id="footer-menu">
+					<li className="col-xs-8 col-lg-2">
 						<Link to={prefixLink('/about-us/')}>About Us</Link>
 					</li>
-					<li className="col-xs col-lg-2">
+					<li className="col-xs-8 col-lg-2">
 						<Link to={prefixLink('/contact-us/')}>Contact Us</Link>
 					</li>
-					<li className="col-xs col-lg-2">
+					<li className="col-xs-8 col-lg-2">
 						<Link to={prefixLink('/privacy-policy/')}>Privacy Policy</Link>
 					</li>
 				</ul>

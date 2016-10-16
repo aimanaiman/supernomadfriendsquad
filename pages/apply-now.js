@@ -54,7 +54,7 @@ export default class ApplyNow extends React.Component {
           </div>
           
           <div className="row around-xs" id="form">
-            <div className="col-xs-12 col-lg-8">
+            <div className="col-xs-10 col-lg-8">
               <form name="application" data-netlify={true}>
                 <label htmlFor="name">Name:</label>
                 <input type="text" name="name" placeholder="Sandy H. Warmbuns" />
@@ -86,8 +86,8 @@ export default class ApplyNow extends React.Component {
                   <input type="radio" name="remote-work" value="no" id="no"/>No 
                 </label>
               
-                <label htmlFor="gender">Income Level?</label>
-                <select name="gender" id="gender">
+                <label htmlFor="income" className="income">Income Level?</label>
+                <select name="income" id="income">
                   <option value="25k">0 - $25,000</option>
                   <option value="25k-75k">$25,000 - $75,000</option>
                   <option value="75k-150k">$75,000 - $150,000</option>
