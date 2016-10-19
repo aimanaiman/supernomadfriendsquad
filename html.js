@@ -21,7 +21,7 @@ render () {
     }
 
 return (
-  <html lang="en">
+  <html lang="en" prefix="og: http://ogp.me/ns#">
     <head>
       <meta charSet="utf-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -42,7 +42,6 @@ return (
       <meta itemprop="name" content="Super Nomad Friend Squad" />
       <meta itemprop="url" content="https://www.supernomadfriendsquad.com/" />
       <meta itemprop="description" content="Travel the World while Working Remotely" />
-
       <meta itemprop="thumnbnailUrl" content="http://res.cloudinary.com/super-nomad-friend-squad-llc/image/upload/v1476908433/snfs-meta-img_pgguam.jpg" />
       <link rel="image_src" href="http://res.cloudinary.com/super-nomad-friend-squad-llc/image/upload/v1476908433/snfs-meta-img_pgguam.jpg"/>
       <meta itemprop="image" content="http://res.cloudinary.com/super-nomad-friend-squad-llc/image/upload/v1476908433/snfs-meta-img_pgguam.jpg" />
