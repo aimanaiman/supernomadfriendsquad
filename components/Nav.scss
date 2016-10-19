@@ -8,25 +8,24 @@ header {
 	max-width: 1300px;
 	margin: 0 auto;
 	padding:0 20px;
-
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
 	@media (max-width:580px){
 		flex-direction: column;
+
 	}
 	
 	ul {
 		margin: 0;
 		@media (max-width:580px){
 			flex-direction: column;
-
 		}
 		li {
 			list-style: none;
 			margin: 0;
 			padding: 20px;
-
 			@media (max-width:580px){
 			padding: 5px;
 			}
@@ -34,7 +33,6 @@ header {
 		a {
 			display: flex;
 			text-decoration: none;
-			// text-transform: uppercase;
 			font-size: 20px;
 			color: #000;
 			font-family: 'Brandon Bold';
@@ -56,6 +54,9 @@ header {
 		margin: 0;
 		padding: 20px 0;
 		align-items: center;
+		@media (max-width:580px){
+			width: 200px;
+	}
 	}
 }
 

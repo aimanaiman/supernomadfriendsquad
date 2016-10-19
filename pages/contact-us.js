@@ -47,9 +47,7 @@ export default class ContactUs extends React.Component {
 									</p>
 								</div>
 								<div className="col-xs-12">
-									<button type="submit">
-										Submit
-									</button>
+									<button>Submit</button>
 								</div>
 							</div>
 						</form>

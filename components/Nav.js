@@ -20,6 +20,7 @@ return (
 		<header>
 			<nav className="navbar">
 				<Link to={prefixLink('/')} id="logo"><img src={logo1} alt=""/></Link>
+				
 				<ul className="menu" id="topNav">	
 					<li>
 						<Link to={prefixLink('/how/')}>How It Works</Link>
@@ -33,6 +34,7 @@ return (
 						</Link>
 					</li>
 				</ul>
+				
 		 </nav>
 	 </header>
 

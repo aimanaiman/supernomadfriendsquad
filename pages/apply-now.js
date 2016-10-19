@@ -55,7 +55,7 @@ export default class ApplyNow extends React.Component {
           
           <div className="row around-xs" id="form">
             <div className="col-xs-10 col-lg-8">
-              <form name="application" data-netlify={true}>
+              <form name="application" data-netlify={true} data-netlify-honeypot={true}>
                 <label htmlFor="name">Name:</label>
                 <input type="text" name="name" placeholder="Sandy H. Warmbuns" />
                 <label htmlFor="email">Email:</label>
@@ -106,7 +106,7 @@ export default class ApplyNow extends React.Component {
                 
                 <div className="row center-xs">
                   <button className="col-xs-9">
-                    <Link >Submit</Link>
+                    <Link to="/success/">Submit</Link>
                   </button>
                 </div>
               </form>
