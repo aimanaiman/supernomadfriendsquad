@@ -31,6 +31,7 @@ return (
       />
       {head.title.toComponent()}
       {head.meta.toComponent()}
+      <meta name="google-site-verification" content="iaZGTuta5qUDQhKuKc6lMHQdBSSNAbNBf8-1LH7TOmk" />
       <meta property="og:title" content="Super Nomad Friend Squad" />
       <meta property="og:site_name" content="Super Nomad Friend Squad" />
       <meta property="og:url" content="https://www.supernomadfriendsquad.com/" />
