@@ -31,6 +31,27 @@ return (
       />
       {head.title.toComponent()}
       {head.meta.toComponent()}
+      <meta property="og:title" content="Super Nomad Friend Squad" />
+      <meta property="og:site_name" content="Super Nomad Friend Squad" />
+      <meta property="og:url" content="https://www.supernomadfriendsquad.com/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:description" content="Travel the World while Working Remotely" />
+      <meta property="og:image" content="http://res.cloudinary.com/super-nomad-friend-squad-llc/image/upload/v1476908433/snfs-meta-img_pgguam.jpg" />
+
+      <meta itemprop="name" content="Super Nomad Friend Squad" />
+      <meta itemprop="url" content="https://www.supernomadfriendsquad.com/" />
+      <meta itemprop="description" content="Travel the World while Working Remotely" />
+
+      <meta itemprop="thumnbnailUrl" content="http://res.cloudinary.com/super-nomad-friend-squad-llc/image/upload/v1476908433/snfs-meta-img_pgguam.jpg" />
+      <link rel="image_src" href="http://res.cloudinary.com/super-nomad-friend-squad-llc/image/upload/v1476908433/snfs-meta-img_pgguam.jpg"/>
+      <meta itemprop="image" content="http://res.cloudinary.com/super-nomad-friend-squad-llc/image/upload/v1476908433/snfs-meta-img_pgguam.jpg" />
+
+      <meta name="twitter:title" content="Super Nomad Friend Squad" />
+      <meta name="twitter:image" content="http://res.cloudinary.com/super-nomad-friend-squad-llc/image/upload/v1476908433/snfs-meta-img_pgguam.jpg" />
+      <meta name="twitter:url" content="https://www.supernomadfriendsquad.com/" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="@supernomadfs" />
+      <meta name="twitter:description" content="Travel the World while Working Remotely" />
       <TypographyStyle typography={typography} />
       <GoogleFont typography={typography} />
       {css}
@@ -45,27 +66,8 @@ return (
     fbq('track', 'CompleteRegistration');
   `}}
 />
-    <meta property="og:title" content="Super Nomad Friend Squad" />
-    <meta property="og:site_name" content="Super Nomad Friend Squad" />
-    <meta property="og:url" content="https://www.supernomadfriendsquad.com/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="Travel the World while Working Remotely" />
-    <meta property="og:image" content="http://res.cloudinary.com/super-nomad-friend-squad-llc/image/upload/v1476908433/snfs-meta-img_pgguam.jpg" />
 
-    <meta itemprop="name" content="Super Nomad Friend Squad" />
-    <meta itemprop="url" content="https://www.supernomadfriendsquad.com/" />
-    <meta itemprop="description" content="Travel the World while Working Remotely" />
 
-    <meta itemprop="thumnbnailUrl" content="http://res.cloudinary.com/super-nomad-friend-squad-llc/image/upload/v1476908433/snfs-meta-img_pgguam.jpg" />
-    <link rel="image_src" href="http://res.cloudinary.com/super-nomad-friend-squad-llc/image/upload/v1476908433/snfs-meta-img_pgguam.jpg"/>
-    <meta itemprop="image" content="http://res.cloudinary.com/super-nomad-friend-squad-llc/image/upload/v1476908433/snfs-meta-img_pgguam.jpg" />
-
-    <meta name="twitter:title" content="Super Nomad Friend Squad" />
-    <meta name="twitter:image" content="http://res.cloudinary.com/super-nomad-friend-squad-llc/image/upload/v1476908433/snfs-meta-img_pgguam.jpg" />
-    <meta name="twitter:url" content="https://www.supernomadfriendsquad.com/" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:description" content="Travel the World while Working Remotely" />
-    
     </head>
     <body>
       <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
