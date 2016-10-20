@@ -3,6 +3,7 @@ import Helmet from "react-helmet"
 import { prefixLink } from 'gatsby-helpers'
 import { TypographyStyle, GoogleFont } from 'react-typography'
 import typography from './utils/typography'
+import fbThumb from './image/snfs-meta-img.jpg'
 
 const BUILD_TIME = new Date().getTime()
 
@@ -37,7 +38,7 @@ return (
       <meta property="og:url" content="https://www.supernomadfriendsquad.com/" />
       <meta property="og:type" content="website" />
       <meta property="og:description" content="Travel the World while Working Remotely" />
-      <meta property="og:image" content="http://res.cloudinary.com/super-nomad-friend-squad-llc/image/upload/v1476908433/snfs-meta-img_pgguam.jpg" />
+      <meta property="og:image" content={fbThumb} />
 
       <meta itemprop="name" content="Super Nomad Friend Squad" />
       <meta itemprop="url" content="https://www.supernomadfriendsquad.com/" />
@@ -49,7 +50,7 @@ return (
       <meta name="twitter:title" content="Super Nomad Friend Squad" />
       <meta name="twitter:image" content="http://res.cloudinary.com/super-nomad-friend-squad-llc/image/upload/v1476908433/snfs-meta-img_pgguam.jpg" />
       <meta name="twitter:url" content="https://www.supernomadfriendsquad.com/" />
-      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@supernomadfs" />
       <meta name="twitter:description" content="Travel the World while Working Remotely" />
       <TypographyStyle typography={typography} />
