@@ -37,8 +37,8 @@ return (
       <meta property="og:site_name" content="Super Nomad Friend Squad" />
       <meta property="og:url" content="https://www.supernomadfriendsquad.com/" />
       <meta property="og:type" content="website" />
-      <meta property="og:description" content="Travel the World while Working Remotely" />
-      <meta property="og:image" content={fbThumb} />
+      <meta property="og:description" content="We are assembling a squad of digital nomads to go on an epic journey around the world. Living in 6 different cities in 12 months Join us." />
+      <meta property="og:image" content="http://res.cloudinary.com/super-nomad-friend-squad-llc/image/upload/v1476908433/snfs-meta-img_pgguam.jpg" />
 
       <meta itemprop="name" content="Super Nomad Friend Squad" />
       <meta itemprop="url" content="https://www.supernomadfriendsquad.com/" />
@@ -52,7 +52,7 @@ return (
       <meta name="twitter:url" content="https://www.supernomadfriendsquad.com/" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@supernomadfs" />
-      <meta name="twitter:description" content="Travel the World while Working Remotely" />
+      <meta name="twitter:description" content="We are assembling a squad of digital nomads to go on an epic journey around the world. Living in 6 different cities in 12 months Join us." />
       <TypographyStyle typography={typography} />
       <GoogleFont typography={typography} />
       {css}

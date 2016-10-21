@@ -32,28 +32,32 @@ export default class How extends React.Component {
           <div className="center-xs">
             <h1>What's Included</h1>
           </div>
-          <div className="row gallery center-xs">
-            <div className="col-xs-7 col-lg-5 col-md-5" >
+          <div className="row gallery center-xs around-lg">
+            <div className="col-xs-12 col-lg-5 col-md-5" >
               <img src={bed1} alt="" />
               <p>Accommodation</p>
             </div>
-            <div className="col-xs-7 col-lg-5 col-md-5">
+            <div className="col-xs-12 col-lg-5 col-md-5">
               <img src={transportation} alt=""/>
               <p>Transportation</p>
             </div>
           </div>
           <div className="row gallery center-xs">
-            <div className="col-xs-7 col-lg-5 col-md-5">
+            <div className="col-xs-12 col-lg-5 col-md-5">
               <img src={coworking} alt=""/>
               <p>Coworking space and 24/7 Wi-fi Access</p>
             </div>
-            <div className="col-xs-7 col-lg-5 col-md-5">
+            <div className="col-xs-12 col-lg-5 col-md-5">
               <img src={activities} alt=""/>
               <p>Local Events and Social Activities.</p>
             </div>
           </div>
-          <div className="row gallery" >
-            <div className="col-xs-12 col-lg-10 center-xs" id="cost" >
+         
+        </section>
+
+        <section id="cost">
+           <div className="row gallery">
+            <div className="col-xs-12 col-lg-10 center-xs" >
               <h1>Program Cost</h1>
               <p>Downpayment: $5,000</p>
               <p>Monthly: $1,650</p>
@@ -76,7 +80,7 @@ export default class How extends React.Component {
             <div className="col-md-3 col-xs-10">
               <h3>Comfort</h3>
               <img src={comfort} alt=""/>
-              <p>All accommodations and logistics are in the mid to high range. You'll be still pushed out of your comfort zone of course.</p>
+              <p>Pushing yourself out of your comfort zone doesn't mean you need to be uncomfortable physically. All accommodations and logistics are in the mid to high range.</p>
             </div>
             <div className="col-md-3 col-xs-10">
               <h3>Growth</h3>

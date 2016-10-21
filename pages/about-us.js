@@ -37,7 +37,7 @@ export default class AboutUs extends React.Component {
 						<div className="row center-xs">
 							<h1>Meet The Team</h1>
 						</div>
-						<div className="row top-xs" id="the-team">
+						<div className="row top-xs around-xs" id="the-team">
 							
 							<div className="col-lg-4 col-md-6 col-xs-12">
 								<div className="row around-xs middle-xs">
