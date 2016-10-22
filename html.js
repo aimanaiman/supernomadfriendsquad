@@ -73,7 +73,7 @@ ga('send', 'pageview');`}} />
     document,'script','https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '1602175506753620');
     fbq('track', 'PageView');
-    fbq('track', 'CompleteRegistration');
+    fbq('track', 'Application');
   `}}
 />
 
