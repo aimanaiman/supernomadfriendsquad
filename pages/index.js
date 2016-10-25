@@ -23,13 +23,12 @@ export default class Home extends React.Component {
         <div className="hero" id="home-hero">
           <div className="overlay">
             <div className="hero-cta">
-              <h2 style={{color: 'white',position:'relative',textAlign:'center'}} >
+              <h1 style={{color: 'white',position:'relative',textAlign:'center'}} >
                 Application for March 2017 is now open
-              </h2>
+              </h1>
             </div>
           </div>
         </div>
-
         <section style={{backgroundColor:'#ecf0f1'}} id="what">
           <div className="container">
             <p>
@@ -39,7 +38,7 @@ export default class Home extends React.Component {
              Be part of a community of like minded remote professionals. Equally committed to personal and professional growth, as they are to having unnecessary juvenille fun. On top of that, we take care of all your logistics so you can focus on what matters to you most.
             </p>
             <button style={{textAlign:'center',marginTop:'30px',textTransform:'uppercase',backgroundColor:'rgba(230, 126, 34,1.0)'}}>
-              <Link to={prefixLink('/how/')} style={{color:'white'}}>
+              <Link to={prefixLink('/how/')} style={{color:'white',fontSize:'15px'}}>
                 How It Works
               </Link>
             </button>
@@ -69,7 +68,6 @@ export default class Home extends React.Component {
               <div className="col-xs-10">
                 <h1>We Want You</h1>
                 <p>If you are an open minded and independent individual.</p>
-                <p>A remote work ninja who got his/her shit together.</p>
                 <p>Loves the nomadic lifestyle and want to share it with a like minded community.</p>
                  <p>Committed to a year of epic adventure.</p>
                  <p>It <strong>SUPER</strong> helps if you're funny.</p>
@@ -80,19 +78,19 @@ export default class Home extends React.Component {
 
         <section id="community">
           <div className="row gallery">
-            <div className="col-xs-12 col-lg-8">
+            <div className="col-xs-12 col-lg-10">
               <h2>The Community</h2>
             </div>
           </div>
           <div className="row gallery">
-            <div className="col-xs-12 col-lg-8">
+            <div className="col-xs-12 col-lg-10">
               <p>It's predicted that in 2035 there would be 1 billion people will be working remotely. This of course is just a natural progression due to the advent of ever advancing technology. Which explains the current rise of the digital nomad movement.</p>
               <p>SNFS members will be playing the part of human guinea pigs in this movement. Figuring out what works and what doesn't.</p>
             </div>
           </div>
           <div className="col-xs-12 center-xs">
             <button style={{backgroundColor:'#e67e22', marginTop:'30px'}}>
-              <Link to={prefixLink('/itinerary/')}>It's A Cause I Can Get With</Link>
+              <Link to={prefixLink('/itinerary/')} style={{color:'white',fontSize:'16px'}} >It's A Cause I Can Get With</Link>
             </button>
           </div>
         </section>

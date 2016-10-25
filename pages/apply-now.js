@@ -20,7 +20,7 @@ export default class ApplyNow extends React.Component {
         />
         <div className="hero" id="apply-now-hero">
           <div className="overlay">
-            <h2 style={{color:'#f3f3f3'}}>Here We Go . . .</h2>
+            <h1 style={{color:'#f3f3f3'}}>Here We Go . . .</h1>
           </div>
         </div>
         
@@ -54,7 +54,7 @@ export default class ApplyNow extends React.Component {
           </div>
           
           <div className="row around-xs" id="form">
-            <div className="col-xs-10 col-lg-8">
+            <div className="col-xs-10 col-lg-5">
               <form name="application" data-netlify={true} data-netlify-honeypot={true}>
                 <label htmlFor="name">Name:</label>
                 <input type="text" name="name" placeholder="Sandy H. Warmbuns" />
@@ -104,9 +104,9 @@ export default class ApplyNow extends React.Component {
                 </label>
                 <textarea type="why" name="why" placeholder="" />
                 
-                <div className="row center-xs">
-                  <button className="col-xs-9">
-                    <Link to="/success/">Submit</Link>
+                <div className="row around-xs">
+                  <button className="col-xs-8">
+                    <Link to="/success">Submit</Link>
                   </button>
                 </div>
               </form>

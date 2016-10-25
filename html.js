@@ -3,7 +3,6 @@ import Helmet from "react-helmet"
 import { prefixLink } from 'gatsby-helpers'
 import { TypographyStyle, GoogleFont } from 'react-typography'
 import typography from './utils/typography'
-import fbThumb from './image/snfs-meta-img.jpg'
 
 const BUILD_TIME = new Date().getTime()
 

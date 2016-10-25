@@ -35,7 +35,7 @@ export default class Itinerary extends React.Component {
                 <p>What we do and how we live will take shape of the squad. Your personality will inevitably inject itself to our experience for the year, and vice versa. Be as inclusive as you want or as independent soul 'searchy' as you need to be. It's all good.
                 </p>
                 <button style={{backgroundColor:'#e67e22', marginTop:'30px'}}>
-                  <Link to={prefixLink('/itinerary/')}>
+                  <Link to={prefixLink('/apply-now/')}>
                     Apply Now
                   </Link>
               </button>

@@ -25,7 +25,7 @@ export default class How extends React.Component {
         />
       <div className="hero" id="how-hero">
         <div className="overlay">
-          <h2 style={{color:'#fff'}}>An Epic Year . . .</h2>
+          <h1 style={{color:'#fff'}}>An Epic Year . . .</h1>
         </div>
       </div>
         <section id="whats-included">

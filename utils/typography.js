@@ -13,7 +13,7 @@ const options = {
       ],
     },
     {
-      name: 'Arvo',
+      name: 'Open Sans',
       styles: [
         '400',
         '400i',
@@ -22,7 +22,7 @@ const options = {
     },
   ],
   headerFontFamily: ['Montserrat', 'sans-serif'],
-  bodyFontFamily: ['Arvo', 'sans-serif'],
+  bodyFontFamily: ['Open Sans', 'sans-serif'],
   baseFontSize: '18px',
   baseLineHeight: 1.65,
   scale: 2.25,
