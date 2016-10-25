@@ -117,10 +117,12 @@ nav {
       height: 100%;
       color: #000;
       background-color: #fff;
-      font-size: 14px;
+      font-size: 15px;
+      padding: 0 20px;
       font-family: 'Brandon Bold';
       &:hover {
         background: transparent;
+        opacity: 0.75;
       }
      
       &:not(.item-logo) {
@@ -136,16 +138,15 @@ nav {
 #logo {
   background-color: white;
   img {
-    width: 220px;
-    padding: 10px;
+    width: 240px;
+    padding: 10px 20px;
     display: inline;
     align-item: flex-start;
     margin: 0 auto;
-
   }
-  @media  (max-width: 480px) {
+  @media  (max-width: 768px) {
     img {
-      width: 170px;
+      width: 200px;
       margin: 0 auto;
     }
   }
