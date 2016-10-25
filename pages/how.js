@@ -68,7 +68,7 @@ export default class How extends React.Component {
         <section id="average">
           <div className="" id="average-overlay">
             <div className="row gallery">
-              <div className="col-xs-8">
+              <div className="col-xs-10">
                 <p>The average person pays $2,200 a month to live in an apartment. The average S.N.F.S member pays $1,650 a month to travel the world.</p>
               </div>
             </div>
