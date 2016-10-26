@@ -23,7 +23,7 @@ export class Footer extends React.Component {
 					<form name="subscribe"  data-netlify={true}>
 						<h4 style={{textAlign:'center'}}>For more News and Updates</h4>
 					  <p>
-					    <input type="email" name="email" placeholder="Email" />
+					    <input type="email" name="email" placeholder="Email" required />
 					    <button>SUBSCRIBE</button>
 					  </p>
 					</form>

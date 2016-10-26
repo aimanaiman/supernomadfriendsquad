@@ -57,11 +57,11 @@ export default class ApplyNow extends React.Component {
             <div className="col-xs-10 col-lg-5">
               <form name="application" data-netlify={true} data-netlify-honeypot={true}>
                 <label htmlFor="name">Name:</label>
-                <input type="text" name="name" placeholder="Sandy H. Warmbuns" />
+                <input type="text" name="name" placeholder="Sandy H. Warmbuns" required />
                 <label htmlFor="email">Email:</label>
-                <input type="email" name="email" placeholder="sandy@warm.buns" />
+                <input type="email" name="email" placeholder="sandy@warm.buns" required />
                 <label htmlFor="skype">Skype ID:</label>
-                <input type="text" name="skype" placeholder="the.warmest.bun" />
+                <input type="text" name="skype" placeholder="the.warmest.bun" required />
 
                 <label htmlFor="gender" className="gender">Gender:</label>
                 <select name="gender" id="gender">

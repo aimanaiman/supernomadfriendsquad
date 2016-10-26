@@ -24,7 +24,7 @@ export default class Home extends React.Component {
           <div className="overlay">
             <div className="hero-cta">
               <h1 style={{color: 'white',position:'relative',textAlign:'center'}} >
-                Application for March 2017 is now open
+                Application for June 2017 is now open
               </h1>
             </div>
           </div>
