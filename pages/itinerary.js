@@ -125,7 +125,60 @@ export default class Itinerary extends React.Component {
           </div>
        </section>
 
-       
+       <section id="activities">
+          <div className="row">
+            <div className="col-xs-offset-1">
+              <h2>Normal Activities</h2>
+            </div>
+          </div>
+          <div className="row around-xs">
+            <div className="col-xs-8 col-md-10 col-lg-4 ">
+              <div className="card activity-card">
+                <img src={coworkingEvent} alt=""/>
+                <p>Meetups and Professional Events.</p>
+              </div>
+            </div>
+            <div className="col-xs-8 col-md-10 col-lg-4 ">
+              <div className="card activity-card">
+                <img src={bbq} alt=""/>
+                <p>Social activities: Drinks at the bar. Or a good ol' fashioned bbq.</p>
+              </div>
+            </div>
+            <div className="col-xs-8 col-md-10 col-lg-4 ">
+              <div className="card activity-card">
+                <img src={excursion} alt=""/>
+                <p>Touristy site visits. Or a weekend excursions to the outskirts of the city.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-xs-offset-9">
+              <h2 style={{paddingTop:'50px'}} >... Not So Normal Activities</h2>
+            </div>
+          </div>
+          <div className="row around-xs">
+            <div className="col-xs-8 col-md-10 col-lg-4 ">
+              <div className="card activity-card">
+                <img src={ninja} alt=""/>
+                <p>Ninja School: You know you want to.</p>
+              </div>
+            </div>
+            <div className="col-xs-8 col-md-10 col-lg-4 ">
+              <div className="card activity-card">
+                <img src={bolivian} alt=""/>
+                <p>Bolivian women wrestling: You probably don't want to.</p>
+              </div>
+            </div>
+            <div className="col-xs-8 col-md-10 col-lg-4 ">
+              <div className="card activity-card">
+                <img src={swim} alt=""/>
+                <p>Yoga with seals</p>
+              </div>
+            </div>
+          </div>
+       </section>
+
        </div>
       )
   }

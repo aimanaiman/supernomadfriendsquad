@@ -37,7 +37,7 @@ export default class AboutUs extends React.Component {
 
 						<div className="row around-xs top-xs team-members">
 							
-							<div className="col-lg-3 col-md-8 col-xs-12 ">
+							<div className="col-lg-3 col-md-8 col-xs-10 ">
 								<div className="row middle-xs card team-card">
 									<div className="col-lg-6 team-img">
 										<img src={aiman} alt=""/>
@@ -53,7 +53,7 @@ export default class AboutUs extends React.Component {
 								</div>
 							</div>
 
-							<div className="col-lg-3 col-md-8 col-xs-12 ">
+							<div className="col-lg-3 col-md-8 col-xs-10 ">
 								<div className="row middle-xs card team-card">
 									<div className="col-lg-6 team-img">
 										<img src={blake} alt=""/>
@@ -69,7 +69,7 @@ export default class AboutUs extends React.Component {
 								</div>
 							</div>
 
-							<div className="col-lg-4 col-md-8 col-xs-12 ">
+							<div className="col-lg-4 col-md-8 col-xs-10 ">
 								<div className="row middle-xs card team-card">
 									<div className="col-lg-6 team-img">
 										<img src={brune2} alt=""/>
@@ -86,7 +86,7 @@ export default class AboutUs extends React.Component {
 							</div>
 
 							<div className="row around-xs team-members-2">
-								<div className="col-lg-4 col-md-8 col-xs-12 ">
+								<div className="col-lg-4 col-md-8 col-xs-10 ">
 								<div className="row middle-xs card team-card">
 									<div className="col-lg-6 team-img">
 										<img src={beck} alt=""/>
@@ -102,21 +102,21 @@ export default class AboutUs extends React.Component {
 								</div>
 							</div>
 
-							<div className="col-lg-4 col-md-8 col-xs-12 ">
-								<div className="row middle-xs card team-card">
-									<div className="col-lg-6 team-img">
-										<img src={suki} alt=""/>
-									</div>
-									<div className="col-lg-6 team-description">
-										<h3>Suki Lim</h3>
-										<p className="aka">aka Naugthy Asian</p>
-										<p className="job-title">Community Manager</p>
-									</div>
-									<div className="col-xs-12 about">
-										<p>This urban chick called Suki, loves the digital world of social media. Anything from posting a tweet to filming a video on Youtube. She also loves comedy therefore you’ll see her performing standup comedy on a Tuesday night. She works out on her free time and codes for moolah!</p>
+								<div className="col-lg-4 col-md-8 col-xs-10 ">
+									<div className="row middle-xs card team-card">
+										<div className="col-lg-6 team-img">
+											<img src={suki} alt=""/>
+										</div>
+										<div className="col-lg-6 team-description">
+											<h3>Suki Lim</h3>
+											<p className="aka">aka Naugthy Asian</p>
+											<p className="job-title">Community Manager</p>
+										</div>
+										<div className="col-xs-12 about">
+											<p>This urban chick called Suki, loves the digital world of social media. Anything from posting a tweet to filming a video on Youtube. She also loves comedy therefore you’ll see her performing standup comedy on a Tuesday night. She works out on her free time and codes for moolah!</p>
+										</div>
 									</div>
 								</div>
-							</div>
 							</div>
 
 

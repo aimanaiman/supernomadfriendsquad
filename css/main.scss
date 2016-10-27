@@ -327,14 +327,21 @@ input, textarea, input[type=radio] {
 }
 
 #activities {
-	img {
-		width: 350px;
+	.activity-card{
+		width: 450px;
+		margin: 0 auto;
+		background-color:white;
 	}
-	p,h3,h2 {
-		color: #fff;
+	background-color:rgba(236, 240, 241,1.0);
+	img {
+		width: 100%;
+	}
+	p,h3 {
+		color: black;
 	}
 	p {
-		margin-bottom: 30px;
+		font-size: 22px;
+		padding:10px;
 	}
 	h1,h3 {
 		margin-bottom: 50px;
@@ -349,20 +356,29 @@ input, textarea, input[type=radio] {
 .card {
 	background-color: #2980b9;
 	padding: 0;
-	margin-bottom: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	border-radius: 5px;
 	p {
 		color: #fff;
-		padding: 0 10px;
-		font-size: 19px;
+		padding: 10px 0 ;
+		font-size: 26px;
+		text-align: center;
 	}
 	h3 {
 		color: #fff;
 		padding: 0 10px;
 	}
+	img {
+		margin: 0;
+		width: 100%;
+	}
 
 }
+
+
+
+
+
 
 #adventure {
 	background: url('../image/adventure.jpg') no-repeat center;
@@ -401,6 +417,11 @@ input, textarea, input[type=radio] {
 		}
 	}
 }
+
+
+
+
+
 // Apply Now
 
 #proccess {
