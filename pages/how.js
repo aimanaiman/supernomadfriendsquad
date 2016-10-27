@@ -8,7 +8,6 @@ import { Link } from 'react-router'
 import bed1 from '../image/accomodation3.jpg'
 import coworking from '../image/cowork-cape-town.jpg'
 import activities from '../image/activity3.jpg'
-
 import transportation from '../image/transportation2.jpg'
 import comfort from '../image/comfort.jpg'
 import growth from '../image/growth.jpg'
@@ -28,47 +27,64 @@ export default class How extends React.Component {
           <h1 style={{color:'#fff'}}>An Epic Year . . .</h1>
         </div>
       </div>
-        <section id="whats-included">
-          <div className="center-xs">
-            <h1>What's Included</h1>
-          </div>
-          <div className="row gallery center-xs around-lg">
-            <div className="col-xs-12 col-lg-5 col-md-5" >
-              <img src={bed1} alt="" />
-              <p>Accommodation</p>
-            </div>
-            <div className="col-xs-12 col-lg-5 col-md-5">
-              <img src={transportation} alt=""/>
-              <p>Transportation</p>
-            </div>
-          </div>
-          <div className="row gallery center-xs">
-            <div className="col-xs-12 col-lg-5 col-md-5">
-              <img src={coworking} alt=""/>
-              <p>Coworking space and 24/7 Wi-fi Access</p>
-            </div>
-            <div className="col-xs-12 col-lg-5 col-md-5">
-              <img src={activities} alt=""/>
-              <p>Local Events and Social Activities.</p>
-            </div>
-          </div>
-         
-        </section>
 
-        <section id="cost">
-           <div className="row gallery">
-            <div className="col-xs-12 col-lg-10 center-xs" >
-              <h1>Program Cost</h1>
-              <p>Downpayment: $5,000</p>
-              <p>Monthly: $1,750</p>
+
+      <section id="whats-included-2">
+        <div className="row middle-xs center-xs around-lg how">
+          <div className="col-lg-5 col-md-6 col-xs-12" style={{padding:'0'}} >
+            <div className="program-cost">
+              <h2>Program Cost</h2>
+              <p>Downpayment: $4,000</p>
+              <p>Monthly: $1,800  (11 months)</p>
+            </div>
+            <div className="whats-included">
+              <h2>What's Included</h2>
+              <ul>
+                <li>
+                  <p>A private room in an apartment or hotel.</p>
+                </li>
+                <li>
+                  <p>All travel between countries (travel to 1st destination and home are on your own)</p>
+                </li>
+                <li>
+                  <p>24/7 access to a workspace with wifi.</p>
+                </li>
+                <li>
+                  <p>Social and Professional events. Squad activities and excursions.</p>
+                </li>
+                <li>
+                  <p>Support staff for the entire year.</p>
+                </li>
+              </ul>
             </div>
           </div>
-        </section>
+          <div className="col-lg-5 col-md-6 col-xs-12 included-items">
+           <div className="row around-xs ">
+             <div className="col-lg-6 col-md-6 col-xs-6 included-card">
+              <img src={coworking} alt=""/>
+              
+            </div> <div className="col-lg-6 col-md-6 col-xs-6 included-card">
+              <img src={bed1} alt=""/>
+             
+            </div> <div className="col-lg-6 col-md-6 col-xs-6 included-card">
+              <img src={transportation} alt=""/>
+              
+            </div> <div className="col-lg-6 col-md-6 col-xs-6 included-card">
+              <img src={activities} alt=""/>
+              
+            </div>
+           </div>
+          </div>
+        </div>
+      </section>
+
+
+        
 
         <section id="average">
           <div className="" id="average-overlay">
             <div className="row gallery">
-              <div className="col-xs-10">
+              <div className="col-xs-10 col-lg-6">
                 <p>"The average person pays $2,200 a month to live in an apartment. The average S.N.F.S member pays $1,750 a month to travel the world."</p>
               </div>
             </div>
@@ -78,9 +94,9 @@ export default class How extends React.Component {
         <section id="philosophy">
           <div className="row center-xs">
             <div className="col-md-3 col-xs-10">
-              <h3>Comfort</h3>
+              <h3>Collaboration</h3>
               <img src={comfort} alt=""/>
-              <p>Pushing yourself out of your comfort zone doesn't mean you need to be uncomfortable physically. All accommodations and logistics are in the mid to high range.</p>
+              <p>The core value of our program is our community. By developing a network with individuals from all walks of life, we create plenty of opportunity for collaboration.</p>
             </div>
             <div className="col-md-3 col-xs-10">
               <h3>Growth</h3>
@@ -125,7 +141,7 @@ export default class How extends React.Component {
               </div> 
               <div className="col-lg-4 col-xs-12">
                 <h3>Are we free to travel independently?</h3>
-                <p>You are free to travel and rejoin the squad whenever you feel like it. Do you what you gotta do.</p>
+                <p>You are free to travel and rejoin the squad whenever you feel like it. Do what you gotta do.</p>
                 <h3>Can I join as a couple or with a friend?</h3>
                 <p>Hell yeah! We've seen those <strong>#relationshipgoals</strong> photos and videos. We know what you're up to. Let's make it happen. We also offer a monthly discount if you share accommodations.</p>
               </div> 

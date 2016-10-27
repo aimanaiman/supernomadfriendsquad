@@ -32,10 +32,10 @@ export default class Home extends React.Component {
         <section style={{backgroundColor:'#ecf0f1'}} id="what">
           <div className="container">
             <p>
-              Super Nomad Friend Squad brings together a community of 50 digital nomads from across the globe to spend a year working, traveling, and exploring 6 cities around the world.
+             SNFS is a program for digital nomads. We are assembling remote professionals from across the globe. To explore 6 different cities around the world for an entire year.
             </p>
             <p>
-             Be part of a community of like minded remote professionals. Equally committed to personal and professional growth, as they are to having unnecessary juvenille fun. On top of that, we take care of all your logistics so you can focus on what matters to you most.
+             Be part of a community of like minded remote professionals. Equally committed to personal and professional growth, as they are to having unnecessary juvenille fun. We take care of all your logistics so you can focus on what matters to you most.
             </p>
             <button style={{textAlign:'center',marginTop:'30px',textTransform:'uppercase',backgroundColor:'rgba(230, 126, 34,1.0)'}}>
               <Link to={prefixLink('/how/')} style={{color:'white',fontSize:'15px'}}>

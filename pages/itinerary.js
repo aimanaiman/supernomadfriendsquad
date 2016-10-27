@@ -108,7 +108,7 @@ export default class Itinerary extends React.Component {
           </div>
        </section>
 
-       <section id="good-day">
+       <section id="good-day" >
           <div className="row gallery">
             <div className="col-xs-12">
               <h2>A Good Day</h2>
@@ -125,55 +125,7 @@ export default class Itinerary extends React.Component {
           </div>
        </section>
 
-       <section id="activities" style={{backgroundColor:'#2c3e50'}}>
-         <div className="row center-xs">
-          <div className="col-xs-12">
-            <h2>Activities</h2>
-          </div>
-         </div>
-         <div className="row around-xs">
-           <div className="col-lg-11">
-              <h3>Normal ones...</h3>
-           </div>
-         </div>
-          <div className="row around-lg center-xs">
-            <div className="col-xs-10 col-md-3 col-lg-3">
-              <img src={coworkingEvent} alt=""/>
-              <p>Meetups, mixers, talks and conferences. Learn and mingle with the locals.</p>
-            </div>
-            <div className="col-xs-10 col-md-3 col-lg-3">
-              <img src={bbq} alt=""/>
-              <p>Hang out sessions like a nice bbq, campfire or drinks at the bar.</p>
-            </div>
-            <div className="col-xs-10 col-md-3 col-lg-3">
-              <img src={excursion} alt=""/>
-              <p>Touristy sight seeing. Or a weekend getaway to the next door city.</p>
-            </div>
-         </div>
-       </section>
-
-       <section id="activities2" style={{backgroundColor:'#fff'}}>
-         <div className="row around-xs">
-           <div className="col-lg-offset-9">
-              <h3>The not so normal ones...</h3>
-           </div>
-         </div>
-          <div className="row around-lg center-xs">
-            <div className="col-xs-10 col-md-3 col-lg-3">
-              <img src={ninja} alt=""/>
-              <p>Ninja school. You know you want to.</p>
-            </div>
-            <div className="col-xs-10 col-md-3 col-lg-3">
-              <img src={bolivian} alt=""/>
-              <p>Watch Bolivian Women Wrestling. You probably don't want to.</p>
-            </div>
-            <div className="col-xs-8 col-md-3 col-lg-3">
-              <img src={swim} alt=""/>
-              <p>Yoga with seals.</p>
-            </div>
-         </div>
-       </section>
-
+       
        </div>
       )
   }
